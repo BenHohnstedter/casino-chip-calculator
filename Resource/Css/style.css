@@ -1,0 +1,20 @@
+h1,
+h5,
+p,
+a,
+button {
+    color: white !important;
+}
+
+.own-bg-primary {
+    background-color: #C0D8C0 !important;
+}
+
+.own-bg-secondary {
+    background-color: #264027 !important;
+}
+
+.chip-size {
+    width: auto !important;
+    max-height: 300px !important;
+}
