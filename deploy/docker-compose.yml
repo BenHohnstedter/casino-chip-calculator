@@ -1,0 +1,14 @@
+name: casino-chip-calculator
+
+services:
+  casino-chip-calculator:
+    image: php:8.2-apache
+    container_name: casino-chip-calculator
+    restart: unless-stopped
+    volumes:
+      - ..:/var/www/html:ro
+    ports:
+      - "8081:80"
+    labels:
+      - "homelab.project=casino-chip-calculator"
+      - "homelab.port=8081"
